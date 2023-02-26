@@ -25,6 +25,7 @@ def getdata(name):
         "contributions": datalistsplit
     }
     return returndata
+# esd 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         path = self.path
